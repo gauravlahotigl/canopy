@@ -1,0 +1,98 @@
+{
+  "from": {
+    "label": "University of Sydney (Eastern Avenue)",
+    "position": { "lat": -33.8886, "lng": 151.1873 }
+  },
+  "to": {
+    "label": "Royal Prince Alfred Hospital (Missenden Rd entrance)",
+    "position": { "lat": -33.8907, "lng": 151.1795 }
+  },
+  "isFallback": true,
+  "amenities": [
+    {
+      "id": "toilet-city-rd",
+      "kind": "toilet",
+      "name": "City Road public toilet",
+      "position": { "lat": -33.8903, "lng": 151.1856 },
+      "wheelchair": true
+    },
+    {
+      "id": "toilet-ramp",
+      "kind": "toilet",
+      "name": "Parkway accessible toilet",
+      "position": { "lat": -33.8913, "lng": 151.183 },
+      "wheelchair": true
+    },
+    {
+      "id": "bench-parkway",
+      "kind": "bench",
+      "name": "Parkway rest bench",
+      "position": { "lat": -33.8914, "lng": 151.182 }
+    },
+    {
+      "id": "water-eastern-ave",
+      "kind": "water",
+      "name": "Eastern Avenue drinking fountain",
+      "position": { "lat": -33.8896, "lng": 151.1864 }
+    },
+    {
+      "id": "pharmacy-rpa",
+      "kind": "pharmacy",
+      "name": "RPA campus pharmacy",
+      "position": { "lat": -33.8906, "lng": 151.1798 },
+      "wheelchair": true
+    },
+    {
+      "id": "bench-quad",
+      "kind": "bench",
+      "name": "Quadrangle lawn bench",
+      "position": { "lat": -33.8888, "lng": 151.187 }
+    }
+  ],
+  "fastest": {
+    "mode": "fastest",
+    "distanceMeters": 900,
+    "durationSeconds": 660,
+    "ascentMeters": 9,
+    "notes": [],
+    "stops": [],
+    "coordinates": [
+      { "lat": -33.8886, "lng": 151.1873 },
+      { "lat": -33.8894, "lng": 151.1866 },
+      { "lat": -33.8901, "lng": 151.1857 },
+      { "lat": -33.8907, "lng": 151.1847 },
+      { "lat": -33.8912, "lng": 151.1836 },
+      { "lat": -33.8914, "lng": 151.1825 },
+      { "lat": -33.8912, "lng": 151.1814 },
+      { "lat": -33.8908, "lng": 151.1804 },
+      { "lat": -33.8907, "lng": 151.1795 }
+    ]
+  },
+  "forYou": {
+    "mode": "forYou",
+    "distanceMeters": 1080,
+    "durationSeconds": 900,
+    "ascentMeters": 3,
+    "notes": [
+      "+4 min, but step-free and passes 2 toilets",
+      "Avoids the Missenden Rd footbridge steps"
+    ],
+    "stops": [
+      { "amenityId": "toilet-city-rd", "etaMinutes": 6, "distanceAlongMeters": 420 },
+      { "amenityId": "bench-parkway", "etaMinutes": 10, "distanceAlongMeters": 680 },
+      { "amenityId": "pharmacy-rpa", "etaMinutes": 14, "distanceAlongMeters": 980 }
+    ],
+    "coordinates": [
+      { "lat": -33.8886, "lng": 151.1873 },
+      { "lat": -33.8894, "lng": 151.1866 },
+      { "lat": -33.8901, "lng": 151.1857 },
+      { "lat": -33.8905, "lng": 151.1849 },
+      { "lat": -33.891, "lng": 151.1841 },
+      { "lat": -33.8913, "lng": 151.183 },
+      { "lat": -33.8914, "lng": 151.182 },
+      { "lat": -33.8912, "lng": 151.1809 },
+      { "lat": -33.8908, "lng": 151.18 },
+      { "lat": -33.8907, "lng": 151.1795 }
+    ]
+  }
+}
