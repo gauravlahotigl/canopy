@@ -95,3 +95,63 @@ body {
   font-weight: 700;
   border: 2px solid #fafafa;
 }
+
+/* --- Journey (personalised route planner) — scoped, additive only --- */
+
+:root {
+  --journey-bg: #fbf9f5;
+  --journey-bg-raised: #ffffff;
+  --journey-ink: #171512;
+  --journey-ink-muted: #6b655c;
+  --journey-border: #e7e2d8;
+  --journey-accent: #f26a4b;
+  --journey-accent-ink: #fffaf7;
+  --journey-accent-soft: #fde7e0;
+  --journey-toilet: #2f6fe0;
+  --journey-bench: #b8792b;
+  --journey-water: #1ca7b0;
+  --journey-pharmacy: #d14343;
+}
+
+@theme inline {
+  --color-journey-bg: var(--journey-bg);
+  --color-journey-bg-raised: var(--journey-bg-raised);
+  --color-journey-ink: var(--journey-ink);
+  --color-journey-ink-muted: var(--journey-ink-muted);
+  --color-journey-border: var(--journey-border);
+  --color-journey-accent: var(--journey-accent);
+  --color-journey-accent-ink: var(--journey-accent-ink);
+  --color-journey-accent-soft: var(--journey-accent-soft);
+  --color-journey-toilet: var(--journey-toilet);
+  --color-journey-bench: var(--journey-bench);
+  --color-journey-water: var(--journey-water);
+  --color-journey-pharmacy: var(--journey-pharmacy);
+}
+
+.journey-root .leaflet-container {
+  background: var(--journey-bg);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.journey-root .leaflet-tooltip {
+  background: var(--journey-bg-raised);
+  border: 1px solid var(--journey-border);
+  color: var(--journey-ink);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgb(23 21 18 / 0.12);
+  font-weight: 500;
+  padding: 6px 10px;
+}
+
+.journey-root .leaflet-tooltip-top:before {
+  border-top-color: var(--journey-bg-raised);
+}
+
+.journey-pin-wrap {
+  background: transparent;
+  border: none;
+}
+
+.journey-tiles {
+  filter: grayscale(0.25) brightness(1.08) contrast(0.92) saturate(0.9);
+}
